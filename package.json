@@ -4,7 +4,8 @@
   "description": "University\\Academy Portal in NodeJS",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/app.js",
+    "build": "cd client && npm install && npm run build"
   },
   "keywords": [
     "nodejs",
